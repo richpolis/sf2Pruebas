@@ -1,0 +1,12 @@
+EnsJobeetBundle:
+    resource: "@EnsJobeetBundle/Resources/config/routing.yml"
+    prefix:   /
+
+BloggerBlogBundle:
+    resource: "@BloggerBlogBundle/Resources/config/routing.yml"
+    prefix:   /blogger
+
+# Internal routing configuration to handle ESI
+#_internal:
+#   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
+#   prefix:   /_internal

@@ -1,0 +1,9 @@
+{# src/Blogger/BlogBundle/Resources/views/Page/contactEmail.txt.twig #}
+<div style=" background-color: black; color: white">
+A contact enquiry was made by {{ enquiry.name }} at {{ "now" | date("Y-m-d H:i") }}.
+</div>
+
+Reply-To: {{ enquiry.email }}
+Subject: {{ enquiry.subject }}
+Body:
+{{ enquiry.body }}
